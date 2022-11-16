@@ -6,6 +6,7 @@ const Navbar = () => {
 
   const [isOpen,setIsOpen]=useState(false)
 
+  
   return (
     <nav className="flex flex-col lg:flex-row justify-between items-center px-3 py-2 w-[97%] rounded-xl fixed top-4 left-[50%] translate-x-[-50%] bg-white z-10">
       <div className="flex justify-between items-center gap-6 xl:gap-12 md:min-w-[695px] ">
